@@ -1,0 +1,30 @@
+{
+  "name": "ikechukwuokalia/php-letter-avatar",
+  "description": "Generates avatar using name initials.",
+  "keywords": [
+    "letter", "avatar", "profile", "picture"
+  ],
+  "homepage": "https://github.com/ikechukwuokalia/php-letter-avatar",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ikechukwu Okalia",
+      "email": "dev@ikechukwuokalia.com",
+      "homepage": "https://ikechukwuokalia.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=7.0.0",
+    "ext-mbstring" : "*",
+    "intervention/image": "^2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "IkechukwuOkalia\\LetterAvatar\\": "src/"
+    }
+  }
+}
